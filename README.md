@@ -45,3 +45,29 @@ Clone this repository:
 ```sh
 git this url blah blah blah 
 ```
+
+## Configuration TBD
+
+To use this module, add it to the modules array in the `config/config.js` file:
+
+```javascript
+modules: [
+  {
+    module: "MMM-Rhino",
+    position: "bottom_right", // This can be any of the regions.
+    // Best results in bottom_bar to it loads after other modules.
+    config: {
+      // See 'Configuration options' for more information.
+      x: "", // 
+      x: "", // 
+      apikey: "YOUR_API_KEY" // picovoice API key.
+    }
+  }
+];
+```
+
+### Configuration options TBD
+
+The following properties can be configured:
+
+| Option                       | Description                                                                                                                                   
