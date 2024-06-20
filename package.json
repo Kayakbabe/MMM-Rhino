@@ -1,0 +1,49 @@
+{
+  "name": "MMM-Rhino",
+  "version": "0.0.1",
+  "description": "Picovoice Rhino hotword detection for MagicMirror",
+  "main": "MMM-Rhino.js",
+  "keywords": [
+    "module, rhino, picovoice, inference, intent, voice control, offline, private, speech recognition, microphone, mic, realtime, magic mirror, smart mirror, voice, jarvis"
+  ],
+  "author": "Kayakbabe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kayakbabe/MMM-Rhino"
+  },
+  "bugs": {
+    "url": "https://github.com/Kayakbabe/MMM-Rhino/issues"
+  },
+  "dependencies": {
+    "@picovoice/rhino-node": "~3.0.3",
+    "@picovoice/pvrecorder-node": "~1.2.2",
+    "commander": "^6.1.0",
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+}
+
+
+/*
+
+{
+  "name": "@picovoice/rhino-node-demo",
+  "scripts": {
+    "file": "node file.js",
+    "mic": "node mic.js"
+  },
+  "bin": {
+    "rhn-file-demo": "./file.js",
+    "rhn-mic-demo": "./mic.js"
+  },
+
+  "cpu": [
+    "!ia32",
+    "!mips",
+    "!ppc",
+    "!ppc64"
+  ]
+}
+*/
