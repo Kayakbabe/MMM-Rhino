@@ -8,7 +8,7 @@ Uses PicoVoice Rhino. You will have to follow the instructions provided by Picov
 
 # Modules Supported
 + MMM-Pages
-+ default News
++ News (default module included with MagicMirror)
 
 The yml file provided in this repository will allow you to import it to the Rhino console on PicoVoice so that you can generate your own rhino profile that will work with your api key. 
 
