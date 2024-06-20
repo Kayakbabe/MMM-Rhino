@@ -11,6 +11,9 @@ Module.register("MMM-Rhino", {
     debug: false,
     //hotword: "Magic Mirror", // do i want to add porcupine or just have it hot all the time?
     sensitivity: 0.7,
+    accessKey: "", //add check that this value is filled in, or else give a notification and log error
+    contextPath: "MagicMirrorControl_en_raspberry-pi_v3_0_0.rhn",
+    modelFilePath: "",
     // do i need to add var for hx stuff for usb mic or diff port than default or have
     // them configure externally?
     onDetected: {
