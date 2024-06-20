@@ -2,7 +2,7 @@
 MagicMirror module to allow voice control via Picovoice Rhino. This module outputs to the MagicMirror Notification system so that other modules may interact with the MagicMirror.
 
 # API
-Uses PicoVoice Rhino. You will have to follow the instructions provided by Picovoice to install on your Raspberry Pi
+Uses PicoVoice Rhino. You will have to follow the instructions provided by Picovoice to install on your Raspberry Pi. https://picovoice.ai/
 
 # Modules Supported
 MMM-Pages
