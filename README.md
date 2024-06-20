@@ -23,8 +23,13 @@ Go to <https://picovoice.ai/> and get a picovoice account. A free account that a
 ## 2. Setup Picovoice
 
 ## 3. Get Your Custom Rhino model
-in the rhino console , import the commands.yml file. save it. Test it, Modify if you wish to fit your language style. This intent of this module it not to teach you to use Rhino or PicoVoice, so please use their forums, FAQs and examples. 
-Download the rhino model. (note: you can test and play with your model as much as you want without downloading it. So if you are modifying your model to work with more notification that I have provided. Keep this in mind as the free account only allows 10 downloads per month.)
+in the rhino console , Create a new context named MagicMirrorRhino.
+Enter the context. 
+import the MagicMirrorRhino.yml file. save it. Test it, Modify if you wish to fit your language style. 
+*This intent of this module it not to teach you to use Rhino or PicoVoice, so please use their forums, FAQs and examples.* 
+Download the rhino model. It will be downloaded as a zip file.
+
+(note: you can test and play with your model as much as you want without downloading it. So if you are modifying your model to work with more notification than I have provided. Keep this in mind as the free account only allows 10 downloads per month.)
 
 **Also note your private PicoVoice api key. You will need this in the config.**
 
