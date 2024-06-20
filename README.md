@@ -43,7 +43,7 @@ cd ~/MagicMirror/modules
 Clone this repository:
 
 ```sh
-git this url blah blah blah 
+git https://github.com/Kayakbabe/MMM-Rhino.git
 ```
 
 ## Configuration TBD
