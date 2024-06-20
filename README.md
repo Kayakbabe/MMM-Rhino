@@ -70,4 +70,27 @@ modules: [
 
 The following properties can be configured:
 
-| Option                       | Description                                                                                                                                   
+| Option                       | Description                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `x`                   | blah <br><br> **Example:** `'xxxx'` <br> **Default value:** `false` <br><br> Value is **REQUIRED**                                                                                                                                                                                                                   |
+| `x`                  | blah. Value is **REQUIRED** |
+| `apikey`                     | Your [PICOVOICE](https://picovoice.ai) API key, which can be obtained by creating an Picovoice account. <br><br> Value is **REQUIRED**                                                                                                                                                                                                                                                       |
+
+## Update
+
+Go to the module’s folder inside MagicMirror modules folder and pull the latest version from GitHub and install:
+
+```bash
+cd ~/MagicMirror/modules/MMM-Rhino
+git pull
+```
+
+## Special Thanks
+
+- [Michael Teeuw](https://github.com/MichMich) for creating the inspiring project [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror).
+- [SikandAlex](https://github.com/SikandAlex/MMM-Porcupine) for their PicoVoice Porcupine module, which inspired me and on which a part of this module is based
+- The community of magicmirror.builders for help in the development process and all contributors for finding and fixing errors in this module.
+
+## Contributing
+
+If you find any problems, bugs or have questions, please [open a GitHub issue](https://github.com/Kayakbabe/MMM-Rhino/issues) in this repository.
