@@ -1,0 +1,120 @@
+context:
+  expressions:
+    mirrorwake:
+      - brighten up
+      - come on
+      - wake up
+      - lighten up
+      - turn on
+      - awake
+      - wakeup
+      - wake
+      - awaken
+    mirrorsleep:
+      - mirror fuck off
+      - mirror shut up
+      - turn off
+      - mirror sleep now
+      - mirror go to sleep
+      - mirror put yourself to sleep
+    mirrorshutdown:
+      - mirror shutdown
+    ARTICLE_NEXT:
+      - foward (the) @news
+      - "@news forward"
+      - (@goto) (the) next @news
+    ARTICLE_PREVIOUS:
+      - "@news (go back, backup)"
+      - (go) back (up) one @news
+      - (@goto) (the) previous @news
+    ARTICLE_MORE_DETAILS:
+      - "@goto (the,more) (@news) [summary,details,info]"
+      - (@goto) more (@news) [summary,details,info]
+    ARTICLE_LESS_DETAILS:
+      - (@goto) less (@news) [details, info]
+      - Hide (the) (@news) [summary,details]
+    ARTICLE_TOGGLE_FULL:
+      - close that @news
+      - open that @news
+      - (@goto) that (@news) (in a) [full screen,full window, window]
+      - full screen (the, that) @news
+      - toggle (the, that) @news
+      - "@goto full (screen, window) @news"
+    ARTICLE_INFO_REQUEST:
+      - (@goto) (the, that) @news [title, source, date]
+    PAGE_CHANGED:
+      - (please) [@goto ] (the) @page ($pv.SingleDigitInteger:pagenum)
+      - help [@goto ] (the) $changepage:changepage [page, screen]
+        ($pv.SingleDigitInteger:pagenum)
+    PAGE_INCREMENT:
+      - proceed to next @page
+      - increment @page
+      - (@goto) next @page
+      - go forward a @page
+      - "@page increment"
+    PAGE_DECREMENT:
+      - (go) back (a, one) @page
+      - previous @page
+      - "@page decrement"
+    RESUME_ROTATION:
+      - rotate @page
+      - Resume [rotation, rotating]
+    PAUSE_ROTATION:
+      - "[Pause, stop] [rotation, rotating, screen]"
+    HOME_PAGE:
+      - "@goto (the) @home (@page)"
+    LEAVE_HIDDEN_PAGE:
+      - close the [hidden, system, admin] (@page)
+    SHOW_HIDDEN_PAGE:
+      - "[@goto] (the) (hidden) [system, status, admin] (@page)"
+  slots:
+    changepage:
+      - fifth
+      - fourth
+      - third
+      - second
+      - first
+      - previous
+      - next
+    modulename:
+      - compliments
+      - weather
+      - notifications
+      - alerts
+      - date
+      - time
+      - calendar
+      - news
+    mirrorstate:
+      - awaken
+      - wakeup
+      - wake
+      - awake
+      - asleep
+      - off
+      - on
+  macros:
+    home:
+      - start
+      - first
+      - beginning
+      - home
+    goto:
+      - give me
+      - show me
+      - show
+      - change to
+      - change
+      - switch to
+      - switch
+      - goto
+      - go to
+    page:
+      - screen
+      - page
+    news:
+      - story
+      - news story
+      - news article
+      - news
+      - article
