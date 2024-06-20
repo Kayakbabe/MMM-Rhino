@@ -26,10 +26,9 @@
 }
 
 
-/*
+/* 
 
 {
-  "name": "@picovoice/rhino-node-demo",
   "scripts": {
     "file": "node file.js",
     "mic": "node mic.js"
