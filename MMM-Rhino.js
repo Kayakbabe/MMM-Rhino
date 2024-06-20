@@ -24,12 +24,15 @@ Module.register("MMM-Rhino", {
   },
 
   start: function() {
+    Log.log('Rhino voice control started');
     this.config = this.configAssignment({}, this.defaults, this.config)
     this.sendSocketNotification('INIT', this.config)
   },
 
   notificationReceived: function(notification, payload, sender) {
+    Log.log(`Notification received: ${id}`, payload);
     switch (notification) {
+       // add a case to mute the microphone and speaker
       case "RHINO_READY":
       case "DOM_OBJECTS_CREATED":
       case "ALL_MODULES_STARTED":
