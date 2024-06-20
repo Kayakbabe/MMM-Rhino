@@ -7,8 +7,8 @@
 Uses PicoVoice Rhino. You will have to follow the instructions provided by Picovoice to install on your Raspberry Pi. You will need an account on their site and to obtain an api key. https://picovoice.ai/
 
 # Modules Supported
-MMM-Pages
-default News
+.MMM-Pages
+.default News
 
 The yml file provided in this repository will allow you to import it to the Rhino console on PicoVoice so that you can generate your own rhino profile that will work with your api key. 
 
