@@ -54,8 +54,8 @@ To use this module, add it to the modules array in the `config/config.js` file:
 modules: [
   {
     module: "MMM-Rhino",
-    position: "bottom_right", // This can be any of the regions.
-    // Best results in bottom_bar to it loads after other modules.
+    position: "bottom_right", // This can be any of the regions BUT
+    // Best results in bottom_bar so it loads after other modules.
     config: {
       // See 'Configuration options' for more information.
       x: "", // 
