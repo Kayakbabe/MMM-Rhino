@@ -18,14 +18,15 @@ Once imported, you can also add more notifications. If you do so, please documen
 Before installing this module, you have to setup with Picovoice to get an api key, and create a Rhino model which will work with your api key. The steps below will guide you.
 
 ## 1. Get a free PicoVoice Account
-Go to <https://picovoice.ai/> and get a picovoice account. A free account that allows 10 Rhino downloads a month should be sufficient. Rhino works offline, So one you have installed PicoVoice, obtained your api key, and downloaded your Rhino model. You can command your mirror offline. 
+Go to <https://picovoice.ai/> and get a picovoice account. A free account that allows 10 Rhino downloads a month should be sufficient. Rhino works offline, So once you have installed PicoVoice, obtained your api key, and downloaded your Rhino model. You can command your mirror offline.
 
 ## 2. Setup Picovoice
 
 ## 3. Get Your Custom Rhino model
 in the rhino console , import the commands.yml file. save it. Test it, Modify if you wish to fit your language style. This intent of this module it not to teach you to use Rhino or PicoVoice, so please use their forums, FAQs and examples. 
-Download the rhino model.
-Also note your private PicoVoice api key. 
+Download the rhino model. (note: you can test and play with your model as much as you want without downloading it. So if you are modifying your model to work with more notification that I have provided. Keep this in mind as the free account only allows 10 downloads per month.)
+
+**Also note your private PicoVoice api key. You will need this in the config.**
 
 ## 4. Install Module
 In your terminal, go to your MagicMirror's module folder:
